@@ -1,7 +1,7 @@
 # MIT_6.S191-Intro_To_Deep_Learning
 
 Hey There!
-Intro To Deep Learning is a free online course conducted yearly by MIT.
+Intro To Deep Learning is a course conducted by MIT
 I will post my solutions to the labs conducted in this course
 
 The labs are as follows:
