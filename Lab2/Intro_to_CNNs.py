@@ -340,7 +340,7 @@ for idx in tqdm(range(0, train_images.shape[0], batch_size)):
   #grads = # TODO
   grads = tape.gradient(loss_value,cnn_model.trainable_variables)
   optimizer.apply_gradients(zip(grads, cnn_model.trainable_variables))
-test_loss, test_acc = cnn_model.evaluate(x=test_images,y=test_labels)
+# test_loss, test_acc = cnn_model.evaluate(x=test_images,y=test_labels)
 """## 1.5 Conclusion
 In this part of the lab, you had the chance to play with different MNIST classifiers with different architectures (fully-connected layers only, CNN), and experiment with how different hyperparameters affect accuracy (learning rate, etc.). The next part of the lab explores another application of CNNs, facial detection, and some drawbacks of AI systems in real world applications, like issues of bias. 
 """
